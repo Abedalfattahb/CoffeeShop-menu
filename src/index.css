@@ -1,0 +1,107 @@
+.color-body{
+  background-color: #f8f8f8;
+  height: 100%;
+  width: 100%;
+}
+.font{
+  font-family: "Almarai",sans-serif;
+}
+.title{
+  color: #224f61;
+  font-family: Almarai;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+.underline{
+  height: 1px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid skyblue;
+}
+.btn{
+  background-color: skyblue;
+  color: #8c8c8c;
+  font-family: Almarai;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+  border-radius: 10px;
+  border: 2px solid skyblue;
+}
+.btn:hover{
+  color: white;
+  font-family: Almarai;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+  border-radius: 11px;
+  border: none;
+  background-color: #b45b35;
+}
+.img-item{
+  height: 150px;
+width: 100px;
+  border-radius: 5px;
+}
+.item-description{
+  color: #8c8c8c;
+  font-family: Almarai;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+.item-title{
+  color: rgb(18, 92, 220);
+  font-family: Almarai;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+  
+}
+.img-avatar{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.btn-search{
+    width: 100px;
+    font-family: Almarai;
+    font-size: 14px;
+    border-radius: 6px;
+    color:black;
+    background-color:rgb(230, 248, 251);
+    border: 2px solid skyblue;
+  
+}
+.item-price{
+  color: rgb(18, 92, 220);
+  font-family: Almarai;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+.btn-search:hover{
+  width: 100px;
+  color:white;
+  background-color:skyblue;
+  font-family: Almarai;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+  border-radius: 11px;
+  border: none;
+}
+
+
+@media (max-width: 768px) {
+  .btn-search {
+    width: 100%; /* Makes each button take full width on smaller screens */
+  }
+}
