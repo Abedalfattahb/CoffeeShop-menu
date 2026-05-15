@@ -5,7 +5,11 @@ import Category from "./components/Category";
 import Cards from "./components/Card";
 import { Items } from "./Data";
 import { useState } from "react";
+import React from 'react';
+// import {QRCode} from 'qrcode.react';
+import { QRCodeCanvas } from 'qrcode.react';
 function App() {
+  // const projectUrl = "http://localhost:3000/";
   const allCat=['الكل',...new Set(Items.map((i)=>i.category))]
   const [itemsData,setitemsData]=useState(Items);
   const filterCat = (cat) => {
@@ -31,7 +35,11 @@ function App() {
   
    
   return (
-   <div className="color-body">
+   
+
+   <div className="color-body"> 
+      {/* <QRCodeCanvas value={projectUrl} /> */}
+
      <NavbarList filterbySearch={filterbySearch}/>
       <Container>
         <Header/>

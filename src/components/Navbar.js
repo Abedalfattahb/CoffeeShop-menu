@@ -19,7 +19,7 @@ function NavbarList({ filterbySearch }) {
       <Navbar expand="lg" bg="primary">
         <Container>
           <Navbar.Brand href="#">
-            <img className='img-avatar' src='../Alhara.png' alt="Alhara Logo" />
+            <img className='img-avatar' src='../logooo.jpeg' alt=" Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
